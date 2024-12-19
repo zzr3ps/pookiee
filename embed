@@ -1,0 +1,6 @@
+// Specify the YouTube video link
+const youtubeLink = "https://www.youtube.com/embed/QhFmy99Tl9s";
+
+// Set the 'src' attribute of the iframe
+const iframe = document.getElementById("youtube-embed");
+iframe.src = youtubeLink;
